@@ -12,7 +12,13 @@ function handleSetCount(e) {
             <p>
                 Le compteur est à : 
             </p>
-            <input value={count} onChange={handleSetCount} />        
+            <input value={count} onChange={handleSetCount} />    
+            <button 
+                onClick={() => setCount(count + 1)}>
+            </button>    
+            <button 
+                onclick={() => setCount(count - 1)}>
+            </button>
         </div>
     );
 }
