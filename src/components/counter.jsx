@@ -17,7 +17,7 @@ function handleSetCount(e) {
                 onClick={() => setCount(count + 1)}> +1
             </button>    
             <button 
-                onclick={() => setCount(count - 1)}> -1
+                onClick={() => setCount(count - 1)}> -1
             </button>
         </div>
     );
